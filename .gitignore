@@ -87,6 +87,7 @@ crashlytics-build.properties
 *.tga
 *.tif
 *.psd
+*.fbx
 *.blend
 *.mp3
 *.wav
