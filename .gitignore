@@ -70,3 +70,24 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Asset cache and imported assets
+[Aa]ssets/**/*.meta
+[Aa]ssets/**/StreamingAssets.meta
+[Aa]ssets/**/*.importer
+[Aa]ssets/**/*.cached
+[Aa]ssets/**/*.mat
+[Aa]ssets/**/*.psd.meta
+
+# Additional cache directories
+[Cc]ache/
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/**/catalog_*.json
+
+# Ignore specific file types (optional)
+*.tga
+*.tif
+*.psd
+*.blend
+*.mp3
+*.wav
+
